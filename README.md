@@ -81,34 +81,7 @@ Tracks daily nutrient intake.
 | total_carbs    | Double    | Carb intake    |
 | total_fat      | Double    | Fat intake     |
 
-6. Workout Plan Table
-
-Stores workout schedules.
-
-| Column       | Type      | Description     |
-| ------------ | --------- | --------------- |
-| id           | Long (PK) | Workout ID      |
-| user_id      | FK        | User reference  |
-| workout_name | String    | Exercise name   |
-| workout_type | String    | Cardio/Strength |
-| duration     | Integer   | Minutes         |
-| workout_date | Date      | Scheduled date  |
-
-
-7. Workout Log Table
-
-Stores completed workouts.
-
-| Column          | Type      | Description       |
-| --------------- | --------- | ----------------- |
-| id              | Long (PK) | Log ID            |
-| user_id         | FK        | User              |
-| workout_id      | FK        | Workout           |
-| calories_burned | Double    | Burned calories   |
-| completed       | Boolean   | Workout completed |
-| log_date        | Date      | Date              |
-
-8. Monthly Reports Table
+6.  Monthly Reports Table
 
 Stores monthly summary.
 
@@ -121,4 +94,24 @@ Stores monthly summary.
 | avg_calories       | Double    | Avg calories  |
 | workouts_completed | Integer   | Workouts      |
 | weight_change      | Double    | Weight change |
+
+
+**Tech Stack:**
+Java
+Spring
+springboot
+Hibernate
+Spring security
+Java script
+CSS
+HTML
+MySQL
+GraphQL(Migrate later)
+Spring AI
+Redis Cache
+AWS
+Jenkins
+Docker
+
+
 
