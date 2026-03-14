@@ -6,7 +6,7 @@ In addition, it provides monthly reports with insights and personalized suggesti
 
 
 
-**1. **Users** Table
+**1. **users** Table
 **Stores user profile information.
 
 
@@ -23,7 +23,7 @@ In addition, it provides monthly reports with insights and personalized suggesti
 | goal       | String    | Weight loss / Gain / Maintain |
 | created_at | Timestamp | Account creation date         |
 
-2. **Goals** Table
+2. **goals** Table
 
 Stores fitness goals for the user.
 
@@ -112,6 +112,10 @@ Redis Cache
 AWS
 Jenkins
 Docker
+----------------------------------------------------------------------------------------------------------------------
+Date : March 14
+Karthik : Implement session login using spring security.
+Vamsi : Implement User and goal registration.
 
 
 
